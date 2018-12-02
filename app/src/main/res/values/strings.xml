@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Tic Tac Toe</string>
+    <string name="action_settings">Settings</string>
+    <string name="about">About</string>
+    <string name="exit">Exit</string>
+    <string name="title_activity_afterstart">Tic Tac Toe</string>
+</resources>

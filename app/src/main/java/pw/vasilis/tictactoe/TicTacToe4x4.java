@@ -38,7 +38,6 @@ public class TicTacToe4x4 extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
 
-
         super.onCreate(savedInstanceState);
         getSupportActionBar().setDisplayShowHomeEnabled(true);
         getSupportActionBar().setLogo(R.drawable.ic_launcher);
@@ -199,6 +198,72 @@ public class TicTacToe4x4 extends AppCompatActivity {
         }
     }
 
+    public void kouti10(View v) {
+        if (win == 0 && buttonpressed[2][2] == 0) {
+            if (flag % 2 == 0) tracker[2][2] = ax;
+            else tracker[2][2] = zero;
+
+            printBoard();
+            winchecker();
+            cpuplay();
+            ++buttonpressed[2][2];
+            flag++;
+        }
+    }
+
+    public void kouti11(View v) {
+        if (win == 0 && buttonpressed[2][2] == 0) {
+            if (flag % 2 == 0) tracker[2][2] = ax;
+            else tracker[2][2] = zero;
+
+            printBoard();
+            winchecker();
+            cpuplay();
+            ++buttonpressed[2][2];
+            flag++;
+        }
+    }
+
+    public void kouti12(View v) {
+        if (win == 0 && buttonpressed[2][2] == 0) {
+            if (flag % 2 == 0) tracker[2][2] = ax;
+            else tracker[2][2] = zero;
+
+            printBoard();
+            winchecker();
+            cpuplay();
+            ++buttonpressed[2][2];
+            flag++;
+        }
+    }
+
+    public void kouti13(View v) {
+        if (win == 0 && buttonpressed[2][2] == 0) {
+            if (flag % 2 == 0) tracker[2][2] = ax;
+            else tracker[2][2] = zero;
+
+            printBoard();
+            winchecker();
+            cpuplay();
+            ++buttonpressed[2][2];
+            flag++;
+        }
+    }
+
+    public void kouti14(View v) {
+        if (win == 0 && buttonpressed[2][2] == 0) {
+            if (flag % 2 == 0) tracker[2][2] = ax;
+            else tracker[2][2] = zero;
+
+            printBoard();
+            winchecker();
+            cpuplay();
+            ++buttonpressed[2][2];
+            flag++;
+        }
+    }
+
+
     public void cpuplay() {
         if ((selectedsingleplayer) && (win == 0)) {
 
@@ -214,6 +279,32 @@ public class TicTacToe4x4 extends AppCompatActivity {
 
             flag++;
             return;
+        }
+    }
+
+    public void kouti15(View v) {
+        if (win == 0 && buttonpressed[2][2] == 0) {
+            if (flag % 2 == 0) tracker[2][2] = ax;
+            else tracker[2][2] = zero;
+
+            printBoard();
+            winchecker();
+            cpuplay();
+            ++buttonpressed[2][2];
+            flag++;
+        }
+    }
+
+    public void kouti16(View v) {
+        if (win == 0 && buttonpressed[2][2] == 0) {
+            if (flag % 2 == 0) tracker[2][2] = ax;
+            else tracker[2][2] = zero;
+
+            printBoard();
+            winchecker();
+            cpuplay();
+            ++buttonpressed[2][2];
+            flag++;
         }
     }
 

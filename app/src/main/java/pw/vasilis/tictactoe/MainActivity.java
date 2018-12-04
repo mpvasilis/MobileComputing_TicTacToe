@@ -63,8 +63,7 @@ public class MainActivity extends AppCompatActivity {
         twoplayer.setChecked(true);
 
 
-        plyr1.addTextChangedListener(new TextWatcher() {                               /*this code take player1's name characterwise i.e it takes one character at a time and
-                                                                                         saved to string variable player1*/
+        plyr1.addTextChangedListener(new TextWatcher() {                           
             @Override
             public void beforeTextChanged(CharSequence s, int start, int count, int after) {
             }
@@ -227,5 +226,7 @@ public class MainActivity extends AppCompatActivity {
 
 
     }
+
+
 
 }

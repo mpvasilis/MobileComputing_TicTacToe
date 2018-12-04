@@ -28,7 +28,7 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="150dp"
+            android:layout_height="210dp"
             android:gravity="center"
             android:orientation="vertical"
             android:weightSum="2">
@@ -53,6 +53,17 @@
                 android:layout_marginBottom="15dp"
                 android:background="@drawable/round"
                 android:text="4x4 Tic Tac Toe"
+                android:textColor="@android:color/white" />
+
+            <Button
+                android:id="@+id/exitApp"
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="15dp"
+                android:background="@drawable/round"
+                android:text="Exit"
                 android:textColor="@android:color/white" />
 
 

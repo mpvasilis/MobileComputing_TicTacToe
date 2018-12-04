@@ -39,6 +39,14 @@ public class SelectGameActivity extends AppCompatActivity {
             }
         });
 
+        final Button exitApp = findViewById(R.id.exitApp);
+        exitApp.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                finish();
+                System.exit(1);
+            }
+        });
+
 
     }
 
